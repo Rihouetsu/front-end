@@ -1,0 +1,17 @@
+p{
+    color: blue;
+}
+
+
+#text-color{
+    color: chartreuse;
+}
+
+.list-color{
+    color: brown;
+}
+
+h2,#color1,.color2{
+
+    color: chocolate;
+}

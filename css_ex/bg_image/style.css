@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+   
+}
+
+#a{
+    background-image: url(mountains.jpg);
+/*元の画像の縦横比は保持した状態で要素に画像が収まるように調整*/  
+    background-size: contains;
+
+    /*背景を繰り返さない*/
+    background-repeat: no-repeat;
+}
+
+#b{
+    background-image: url(mountains.jpg);
+/*元の画像の縦横比は保持した状態で要素をちょうど覆うよくサイズに調整*/  
+    background-size: cover;
+}
+
+#c{
+    background-image: url(mountains.jpg);
+/*元の画像の縦横比は保持した状態で要素をちょうど覆うよくサイズに調整*/  
+    background-size: 100% 100%;
+}

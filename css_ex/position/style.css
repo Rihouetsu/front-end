@@ -1,0 +1,33 @@
+.parent-box {
+    /*親要素はrelativeに*/
+    /* position: absolute; */
+    width: 1000px;
+    height: 800px;
+    background-color: rgba(245, 245, 60, 0.802);
+}
+
+.box{
+    width:200px;
+    height: 200px;
+    border: 1px solid #333;
+}
+
+.box1 {
+    background-color:red;
+}
+
+.box2 {
+    background-color:blue;
+    /* position: relative; */
+    position: absolute;
+    top:0;
+     /*left: 200px;
+      position: absolute;
+    top:0; 
+    /*absoluteは数字を入れてからでないと反応しない
+    浮いて自立する*/
+}
+
+.box3 {
+    background-color:green;
+}

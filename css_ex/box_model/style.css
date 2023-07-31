@@ -1,0 +1,30 @@
+a{
+    display: inline-block;
+    background-color: rgb(0, 183, 255);
+    color: white;
+    /*borderを入れる*/
+    border: 3px solid red;
+    padding: 30px; 
+    /*margin: 100px;*/
+}
+
+p{
+    /*ボーターのスタイル*/
+    border-style: dashed solid dotted double;
+    /*ボーダーの太さ*/
+    border-width: 10px;
+    /*色*/
+    border-color: blue;
+    /*角丸にする*/
+    border-radius: 10px;
+    padding: 100px 30px;
+    background-color: rgb(42, 165, 120);
+    margin: 50px 100px;
+}
+
+h1{
+    border-right: 3px dashed green;
+    background-color: brown;
+    padding-top: 50px;
+    margin-top: 50px;
+}

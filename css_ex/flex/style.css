@@ -1,0 +1,29 @@
+header{
+    background-color: #ffe4c4;
+}
+
+ul{
+    display: flex;
+    /*横幅をつける要素同士を離す*/
+    gap: 0 10px;
+    /*中央寄せ*/
+    justify-content: end;
+}
+
+li{
+    list-style: none;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+section{
+    display: flex;
+    /*横幅をつける 要素同士を離す*/
+    gap: 0 20px;
+    /*中央寄せ*/
+    justify-content: center;
+}
