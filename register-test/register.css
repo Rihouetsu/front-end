@@ -1,18 +1,18 @@
 .container{
-    width: 300px;
+    width: 200px;
     border: 1px solid rgb(26, 183, 210);
-    padding:20px;
+    padding:10px;
     margin: 0 auto;
-    background-color: aquamarine;   
+    background-color: chartreuse;   
 }
 
 h2{
     text-align: center;
     margin-bottom: 20px;
-    color:blueviolet;
+    color:rgb(226, 43, 92);
 }
 
-#username,#password{
+#username,#password,#email{
 width: 90%;
 padding: 10px;
 border-radius: 6px;

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../css_ex"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "css_ex"
+	}
+}

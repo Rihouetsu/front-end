@@ -1,0 +1,33 @@
+body{
+    padding-top: 90px;
+    /*ヘッダーの後ろに隠れた要素を隠れに内容に表示させる*/
+}
+
+header{
+    /*画面幅いっぱいを指定*/
+    width:100%;
+    /*高さの指定*/
+    height: 50px;
+    background-color: greenyellow;
+    padding: 20px 50px;
+    /*ウィンドウを基準に画面を固定*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 0 40px;
+}
+
+.menu li{
+    /*リストの・を削除*/
+    list-style: none;
+} 
+
+main{
+    height: 1200px;
+}
