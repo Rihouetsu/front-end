@@ -1,5 +1,5 @@
 div{
-    background-image: url('pexels-jill-wellington-3607031.jpg');
+    background-image: url('krystal-ng-PrQqQVPzmlw-unsplash.jpg');
     background-size: 100% 100%;     
 }
 
@@ -26,11 +26,11 @@ body {
   }
 
   input[type="submit"] {
-    background-color: #4CAF50;
+    background-color:chocolate;
     color: white;
     border: none;
     padding: 10px 20px;
-    border-radius: 3px;
+    border-radius: 5px;  
   }
 
   label {
