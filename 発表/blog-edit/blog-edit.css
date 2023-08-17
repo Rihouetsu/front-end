@@ -8,14 +8,14 @@ header {
     background-color:darkturquoise;
     color:chocolate;
     text-align: center;
-    padding: 20px;
+    padding: 4px;
 }
 
 nav {
     background-color:gold;
     color:wheat;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
 }
 
 nav a {
@@ -61,8 +61,15 @@ button[type="submit"] {
     padding: 0.5px 1px;
     font-size: 14px;
     text-align: center;
+    background-color:cornsilk;
 }
-
+button[type="button"] {
+    border-radius: 4px;
+    padding: 0.5px 1px;
+    font-size: 14px;
+    text-align: center;
+    background-color:cornsilk;
+}
 
 .flex{
     display:flex;

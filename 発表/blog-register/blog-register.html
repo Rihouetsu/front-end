@@ -30,8 +30,8 @@
                 <label for="image">Upload Image:</label>
                 <input type="file" id="image" name="image">
                 <div class="flex">
-                <button type="submit">register</button>
-                <button type="button" onclick="history.back();">return</button></div>
+                <button type="submit">登録</button>
+                <button type="button" onclick="history.back();">戻る</button></div>
             </form>
             
         </div>
@@ -40,10 +40,6 @@
     const commentForm = document.getElementById("commentForm");
     const imagePreview = document.getElementById("imagePreview");
 
-    commentForm.addEventListener("submit", function(event) {
-        event.preventDefault();
-        alert("Comment submitted!");
-    });
 
     const imageInput = document.getElementById("image");
     imageInput.addEventListener("change", function() {

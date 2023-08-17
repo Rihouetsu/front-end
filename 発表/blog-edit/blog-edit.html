@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="blog-edit.css">
 </head>
-<body>
+    <body>
     <header>
-        <h1>Welcome to My Blog</h1>
+        <h1>Welcome to my blog</h1>
     </header>
     <nav>
         <a href="#">Home</a>
@@ -17,25 +18,38 @@
         <a href="#">Contact</a>
     </nav>
     <div class="container">
-            <h3>Record Life</h3>
-            <form action="" method="post">              
-                <label for="title">Title:</label>
-                <input type="text" id="title" name="title" required>
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required>
-                <label for="category">Category:</label>
-                <input type="category" name="category"  required>
-                <label for="detail">Detail:</label>
-                <textarea id="detail" name="detail" rows="4" required></textarea>               
-                <div class="flex">
-                <button type="submit">edit</button>
-                <button type="button" onclick="history.back();">return</button></div>
-            </form>
-            
-        </div>
-    
+        <h3>Record Life</h3>
+        <form action="" method="post">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="category">Category:</label>
+            <input type="category" name="category" required>
 
-    
-    
+            <!--<label for="image">image:</label>
+               <img th:src="@{/}" alt="">-->
+
+            <label for="detail">Detail:</label>
+            <textarea id="detail" name="detail" rows="4" required></textarea>
+            <div class="flex">
+                <button type="submit">変更</button>
+                <button type="button" onclick="history.back();">戻る</button>
+                <form action="" method="post">
+                    <div class="flex">
+                        <input type="hidden" name="blogId">
+                        <button type="submit">削除</button>
+                    </div>
+                </form>
+            </div>
+        </form>
+
+
+    </div>
+
+
+
+
 </body>
+
 </html>

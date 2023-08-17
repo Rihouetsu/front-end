@@ -1,25 +1,25 @@
 body {   
     margin: 0;
     padding: 0;
-    background-color:greenyellow
+    background-color:lightsalmon;
 }
 
 header {
-    background-color:cyan;
+    background-color:lightpink;
     color:black;
     text-align: center;
-    padding: 25px;
+    padding: 5px;
 }
 
 nav {
-    background-color:lightpink;
+    background-color:cornflowerblue;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 2.5px;
 }
 
 nav a {
-    color:chocolate;
+    color:white;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -28,8 +28,8 @@ nav a {
     max-width: 800px;
     margin: 0 auto;
     padding: 2px;
-    background-color: white;
-    border-radius: 8px;  
+    background-color:bisque;
+    border-radius:8px;  
 }
 
 h2 {
@@ -61,8 +61,15 @@ button[type="submit"] {
     padding: 0.5px 1px;
     font-size: 14px;
     text-align: center;
+    background-color:cornsilk;
 }
-
+button[type="button"] {
+    border-radius: 4px;
+    padding: 0.5px 1px;
+    font-size: 14px;
+    text-align: center;
+    background-color:cornsilk;
+}
 .uploaded-image {
     max-width: 100%;
     height: auto;

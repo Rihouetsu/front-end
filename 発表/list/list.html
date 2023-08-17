@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to my blog</h1>
+    <div class="tabs">
+        <div class="tab active" onclick="showTab(1)">ONE</div>
+        <div class="tab" onclick="showTab(2)">TWO</div>
+        <div class="tab" onclick="showTab(3)">THREE</div>       
+    </div>  
+</div>
+<script>
+    function showTab(tabNumber) {
+        const tabs = document.querySelectorAll('.tab');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabs.forEach(tab => tab.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+
+        tabs[tabNumber - 1].classList.add('active');
+        tabContents[tabNumber - 1].classList.add('active');
+    }
+</script>
+</body>
+</html>
