@@ -1,18 +1,18 @@
 body {   
     margin: 0;
     padding: 0;
-    background-color:aquamarine;
+    background-color:white;
 }
 
 header {
-    background-color:darkturquoise;
+    background-color:lightblue;
     color:chocolate;
     text-align: center;
     padding: 4px;
 }
 
 nav {
-    background-color:gold;
+    background-color:lightpink;
     color:wheat;
     text-align: center;
     padding: 2px;
@@ -28,7 +28,7 @@ nav a {
     max-width: 800px;
     margin: 0 auto;
     padding: 2px;
-    background-color:khaki;
+    background-color:bisque;
     border-radius: 8px;  
 }
 

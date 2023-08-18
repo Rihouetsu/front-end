@@ -17,10 +17,30 @@
         <a href="#">Blog</a> 
         <a href="#">Contact</a>
      </nav> 
-     <div class="back"></div>    
+     <div class="back"></div> 
+     <main>
+		<article>
+			<h2>文房具一覧</h2>
+			<section class="register-item">
+				<div class="all-view-register__button">
+					<a th:href="@{/product/register}" class="btn btn--orange btn--radius">商品登録</a>
+				</div>
+			</section>
+			<ul class="products">
+				<li　th:each="productList:${productList}"><a
+						th:href="@{/product/edit/{productId}(productId=${productList.productId})}">
+						<img th:src="@{/product-img/{imagePath}(imagePath=${productList.productImage})}" alt="">
+						<p th:text="${productList.productName}"></p><br>
+						<p th:text="${productList.productCategory}"></p>
+					</a>
+				</li>
+			</ul>
+		</article>
+
+	</main>   
 </body>
-<script>
-    var innerHeight = window.innerHeight;
-    document.querySelector(".back").style.height = innerHeight -100 +"px"
-</script>
+<!-- <script> -->
+    <!-- var innerHeight = window.innerHeight; -->
+    <!-- document.querySelector(".back").style.height = innerHeight -100 +"px" -->
+<!-- </script> -->
 </html>
