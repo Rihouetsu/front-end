@@ -1,0 +1,52 @@
+body {   
+    margin: 0;
+    padding: 0;   
+}
+header{
+    background-color:bisque;
+    color:black;
+    text-align: center;
+    padding: 1px;
+}
+.headerlogin {
+	width: 100%;
+	text-align: right;
+	margin-right: 20px;
+}
+.headerlogin a{
+	margin-right: 20px;
+}
+nav { 
+    background-color:coral;
+    color: white;
+    text-align: center;
+    padding: 0.5px;
+ } 
+
+nav a {
+    color:white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+/* .back{ 
+    background-image: url('blog-e1505840253663.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height:100%;
+    position: relative;
+ } */
+ 
+ .blogcard{
+    width: 100px;
+    height: 200px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    text-align: center;  
+}
+.blog-list{
+	display: flex;
+	justify-content: center;
+	gap: 0 20px;
+}
+
+
